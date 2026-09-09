@@ -1,0 +1,68 @@
+import { Category } from "@/types";
+
+export const CATEGORIES: Category[] = [
+  {
+    id: "cat-1",
+    slug: "hoodies",
+    name: "Hoodies & Sweats",
+    description: "Heavyweight premium cotton hoodies engineered for luxury comfort and relaxed drape.",
+    itemCount: 8,
+    image: "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?w=800&auto=format&fit=crop&q=80",
+  },
+  {
+    id: "cat-2",
+    slug: "t-shirts",
+    name: "T-Shirts",
+    description: "Everyday boxy and vintage wash tees cut from high-density organic cotton.",
+    itemCount: 12,
+    image: "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=800&auto=format&fit=crop&q=80",
+  },
+  {
+    id: "cat-3",
+    slug: "jackets",
+    name: "Outerwear & Jackets",
+    description: "Clean silhouettes, utility bombers, and insulated overshirts for transitional weather.",
+    itemCount: 6,
+    image: "https://images.unsplash.com/photo-1544441893-675973e31985?w=800&auto=format&fit=crop&q=80",
+  },
+  {
+    id: "cat-4",
+    slug: "pants",
+    name: "Pants & Trousers",
+    description: "Relaxed tailored trousers, pleated chinos, and heavyweight fleece sweatpants.",
+    itemCount: 7,
+    image: "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=800&auto=format&fit=crop&q=80",
+  },
+  {
+    id: "cat-5",
+    slug: "shirts",
+    name: "Shirts & Overshirts",
+    description: "Structured camp-collar shirts and brushed flannel overshirts with modern cuts.",
+    itemCount: 5,
+    image: "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=800&auto=format&fit=crop&q=80",
+  },
+  {
+    id: "cat-6",
+    slug: "accessories",
+    name: "Accessories",
+    description: "Merino wool beanies, structured cotton caps, leather cardholders, and tote bags.",
+    itemCount: 6,
+    image: "https://images.unsplash.com/photo-1576871337632-b9aef4c17ab9?w=800&auto=format&fit=crop&q=80",
+  },
+  {
+    id: "cat-7",
+    slug: "men",
+    name: "Men",
+    description: "Contemporary menswear defined by architectural proportions and muted tones.",
+    itemCount: 24,
+    image: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&auto=format&fit=crop&q=80",
+  },
+  {
+    id: "cat-8",
+    slug: "women",
+    name: "Women",
+    description: "Effortless oversized tailoring, sculpted knitwear, and timeless wardrobe staples.",
+    itemCount: 18,
+    image: "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=800&auto=format&fit=crop&q=80",
+  },
+];
